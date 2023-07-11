@@ -16,6 +16,14 @@ body{
     font-family: Lato;
     font-weight: 800;
     font-size: 30px;
+    text-align: center;
+}
+.default-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
 .default-btn {
     background-color: #E55473;
@@ -25,15 +33,11 @@ body{
     border: none;
     font-weight: 18px;
 }
-
-.default-para{
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-}
 .default-color{
     color: #E55473;
+}
+.default-container {
+    margin: 75px 150px;
 }
 
 /* header section */
@@ -73,7 +77,79 @@ body{
     text-align: center;
 }
 
+/* Featured Section */
+.featured-container{
+    margin: 75px 150px;
+    /* background-color: #111010; */
+}
+.featured-img-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+.featured-img {
+    text-align: center;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+}
+.featured-img>img{
+    width: 200px;
+    margin-top: 0px;
+    padding: 50px;
+}
+.featured-img>p{
+    /* text-align: center; */
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
 
+/* support */
+.support-container {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+    display: flex;
+    padding: 50px;
+}
+.support-content{
+    width: 330px;
+    text-align: center;
+}
+
+/* Social Media  */
+.social-media{
+    /* text-align: center; */
+    margin: 75px 150px;
+}
+.insta-image{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-image>img{
+    width: 250px;
+}
+
+/* Subscription Section */
+.subscription{
+    margin: 75px 150px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 75px 100px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+#email {
+    margin: 10px;
+    width: 450px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
 /* Footer */
 
 footer {
