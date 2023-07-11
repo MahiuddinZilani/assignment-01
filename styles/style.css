@@ -87,9 +87,6 @@ li a:hover{
 .hot-deal-content{
     padding: 100px 150px;
 }
-.hot-deal h3 {
-    
-}
 .hot-deal p {
     text-align: center;
 }
@@ -138,7 +135,7 @@ li a:hover{
     padding: 50px;
 }
 .support-content{
-    width: 330px;
+    width: 33%;
     text-align: center;
 }
 
@@ -166,7 +163,6 @@ li a:hover{
 }
 .form {
     display: flex;
-    align-items: center;
     padding: 20px 100px;
 }
 #email {
