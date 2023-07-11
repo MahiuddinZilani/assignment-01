@@ -1,0 +1,74 @@
+/* Default or shared section */
+
+.test{
+    background-color: white;
+    width:auto;
+    height: 200px;
+}
+
+body{
+    margin: 0px;
+}
+
+.default-title{
+    color: #272727;
+    font-family: Lato;
+    font-weight: 800;
+}
+.default-btn {
+    background-color: #E55473;
+    color: #FFFFFF;
+    padding: 20px 43px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 18px;
+}
+
+.default-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.default-color{
+    color: #E55473;
+}
+
+/* header section */
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);
+    display:flex;
+    /* justify-content: space-between; */
+    text-align: left;
+    
+}
+.banner-content{
+    width: 500%;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.banner-title {
+    font-size: 60px;
+    
+}
+
+.header img{
+
+}
+
+/* Body Section */
+
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+}
+.hot-deal-content{
+
+}
+.hot-deal h3 {
+    font-size: 40px;
+}
+.hot-deal p {
+    text-align: center;
+}
